@@ -7,7 +7,7 @@ function AppNavbar() {
       <Container>
 
         {/* Logo */}
-        <Navbar.Brand className="fw-bold">
+        <Navbar.Brand  as={Link} to="/" className="fw-bold">
           Safe Home
         </Navbar.Brand>
 
