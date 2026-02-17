@@ -6,16 +6,24 @@ function AppNavbar() {
     <Navbar bg="dark" variant="dark" expand="lg" className="py-3 shadow-sm">
       <Container>
 
-        {/* Logo - SAME */}
-        <Navbar.Brand  className="fw-bold">
+        {/* Logo */}
+        <Navbar.Brand className="fw-bold">
           Safe Home
         </Navbar.Brand>
 
-        {/* Mobile Toggle Button */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        {/* Sidebar Hamburger (Mobile Only) */}
+        <button
+          className="btn btn-outline-light ms-2 d-lg-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobileSidebar"
+        >
+          <i className="bi bi-list"></i>
+        </button>
 
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto align-items-lg-center">
+        {/* Normal Navbar Links (Desktop me collapse hoga) */}
+        <Navbar.Collapse className="justify-content-end d-none d-lg-flex">
+          <Nav className="align-items-lg-center">
 
             <Nav.Link as={Link} to="/listings" className="me-lg-3">
               PGListing
@@ -24,26 +32,24 @@ function AppNavbar() {
             <Nav.Link as={Link} to="/about" className="me-lg-3">
               About
             </Nav.Link>
+
             <Nav.Link as={Link} to="/contact" className="me-lg-3">
               Contact
             </Nav.Link>
 
-            {/* Login Button */}
             <Button
               as={Link}
               to="/login"
               variant="outline-light"
-              className="me-2 mt-2 mt-lg-0"
+              className="me-2"
             >
               Login
             </Button>
 
-            {/* Sign Up Button */}
             <Button
               as={Link}
               to="/signup"
               variant="warning"
-              className="mt-2 mt-lg-0"
             >
               Sign Up
             </Button>
