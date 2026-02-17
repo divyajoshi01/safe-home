@@ -57,7 +57,9 @@ const router= createBrowserRouter([
     }
   ]
 }
-])
+], {
+  basename: '/safe-home', // Set the base path for the router
+})
 
 
 createRoot(document.getElementById('root')).render(
