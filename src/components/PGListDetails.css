@@ -1,0 +1,143 @@
+/* Main Page Container */
+.main-container {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Page Heading */
+.main-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Product Wrapper */
+.room-detail {
+  max-width: 1000px;
+  margin: auto;
+  padding: 25px;
+  display: flex;
+  gap: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Image Gallery */
+.image-gallery {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Main Image */
+.main-image {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Side Images */
+.second-images {
+  display: flex;
+  gap: 10px;
+}
+
+.second-images img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.second-images img:hover {
+  transform: scale(1.05);
+}
+
+/* Detail Section */
+.detail-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Product Title */
+.product-title {
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Location */
+.Location {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Room Type */
+.room-category {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Description */
+.room-description {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Price */
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: green;
+  /* margin-top: auto; */
+}
+
+/* Booking Button */
+.booking-btn {
+  margin-top: 100px;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.booking-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .main-image {
+    height: 300px;
+  }
+
+  .second-images {
+    justify-content: center;
+  }
+}
