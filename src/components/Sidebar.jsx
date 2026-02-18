@@ -24,10 +24,10 @@ const Sidebar = () => {
             <div className="offcanvas-body">
                 <ul className="nav nav-pills flex-column gap-2">
                     {[
-                        { path: "/", label: "Home", icon: "bi-house" },
-                        { path: "/listings", label: "PG Listings", icon: "bi-building" },
-                        { path: "/About", label: "About", icon: "bi-info-circle" },
-                        { path: "/Contact", label: "Contact", icon: "bi-envelope" }
+                        { path: " ", label: "Home", icon: "bi-house" },
+                        { path: "listings", label: "PG Listings", icon: "bi-building" },
+                        { path: "about", label: "About", icon: "bi-info-circle" },
+                        { path: "contact", label: "Contact", icon: "bi-envelope" }
                     ].map((item) => (
                         <li key={item.path} className="nav-item">
                             <Link
