@@ -26,7 +26,7 @@ function PGListingPage() {
 
   setFilterData(newFilterData);
 }, [roomSearch, roomType, price, data]); 
-
+console.log(filterData.length);
 
 
   return (
