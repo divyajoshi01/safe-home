@@ -19,7 +19,7 @@ const Sidebar = () => {
           type="button"
           className="btn-close btn-close-white"
           data-bs-dismiss="offcanvas"
-        >X</button>
+        ></button>
       </div>
 
       <div className="offcanvas-body">
