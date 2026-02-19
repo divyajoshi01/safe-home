@@ -1,5 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
-import { Nav } from "react-bootstrap"; 
+import { Nav } from "react-bootstrap";
+import { useEffect } from "react";
+import * as bootstrap from "bootstrap";
 
 const Sidebar = () => {
   const location = useLocation();
@@ -7,9 +9,21 @@ const Sidebar = () => {
   const isActive = (path) =>
     location.pathname === path ? "active bg-primary" : "";
 
+  // 🔥 Close sidebar when route changes
+  useEffect(() => {
+    const sidebarElement = document.getElementById("mobileSidebar");
+    if (sidebarElement) {
+      const bsOffcanvas =
+        bootstrap.Offcanvas.getInstance(sidebarElement) ||
+        new bootstrap.Offcanvas(sidebarElement);
+
+      bsOffcanvas.hide();
+    }
+  }, [location.pathname]);
+
   return (
     <div
-      className="offcanvas offcanvas-start bg-dark text-white "
+      className="offcanvas offcanvas-start bg-dark text-white"
       tabIndex="-1"
       id="mobileSidebar"
     >
@@ -31,7 +45,12 @@ const Sidebar = () => {
             { path: "contact", label: "Contact", icon: "bi-envelope" },
           ].map((item) => (
             <li key={item.path} className="nav-item">
-              <Nav.Link as={Link} to={item.path} className="me-lg-3 text-white" active={isActive(item.path)}>
+              <Nav.Link
+                as={Link}
+                to={item.path}
+                className="me-lg-3 text-white"
+                active={isActive(item.path)}
+              >
                 <i className={`bi ${item.icon} me-2`}></i>
                 {item.label}
               </Nav.Link>
