@@ -31,7 +31,7 @@ const Sidebar = () => {
             { path: "contact", label: "Contact", icon: "bi-envelope" },
           ].map((item) => (
             <li key={item.path} className="nav-item">
-              <Nav.Link as={Link} to={item.path} className="me-lg-3">
+              <Nav.Link as={Link} to={item.path} className="me-lg-3 text-white" active={isActive(item.path)}>
                 <i className={`bi ${item.icon} me-2`}></i>
                 {item.label}
               </Nav.Link>
