@@ -9,7 +9,7 @@ const Sidebar = () => {
 
   return (
     <div
-      className="offcanvas offcanvas-start bg-dark text-white"
+      className="offcanvas offcanvas-start bg-dark text-white "
       tabIndex="-1"
       id="mobileSidebar"
     >
@@ -31,21 +31,10 @@ const Sidebar = () => {
             { path: "contact", label: "Contact", icon: "bi-envelope" },
           ].map((item) => (
             <li key={item.path} className="nav-item">
-              {console.log(item)}
               <Nav.Link as={Link} to={item.path} className="me-lg-3">
-                {item.label}
-              </Nav.Link>
-
-              {/* <Link
-                to={item.path}
-                className={`nav-link text-white d-flex align-items-center ${isActive(
-                  item.path
-                )}`}
-                data-bs-dismiss="offcanvas"
-              >
                 <i className={`bi ${item.icon} me-2`}></i>
                 {item.label}
-              </Link> */}
+              </Nav.Link>
             </li>
           ))}
         </ul>
