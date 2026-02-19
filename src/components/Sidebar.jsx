@@ -14,7 +14,9 @@ const Sidebar = () => {
       id="mobileSidebar"
     >
       <div className="offcanvas-header">
-        <h5 className="offcanvas-title text-primary">Safe Home</h5>
+        <h5 className="offcanvas-title text-primary">
+          <img src="image.png" alt="logo not found" className="me-2" />
+          Safe Home</h5>
         <button
           type="button"
           className="btn-close btn-close-white"
