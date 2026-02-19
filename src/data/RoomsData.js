@@ -183,7 +183,7 @@ const roomsData = [
     id: 19,
     title: "Luxury Studio",
     city: "Durg",
-    price: 15000,
+    price: 12000,
     roomType: "Studio",
     image: "https://images.unsplash.com/photo-1536376074432-cd24090212cc?auto=format&fit=crop&w=500&q=60",
     image2: "https://images.unsplash.com/photo-1536376074432-cd24090212cc?auto=format&fit=crop&w=500&q=60",
