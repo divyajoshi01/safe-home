@@ -7,7 +7,7 @@ function AppNavbar() {
       <Container>
 
         {/* Logo */}
-        <img src="image.png" alt="logo not found" />
+      
         <Navbar.Brand  as={Link} to="/" className="fw-bold">
 
           Safe Home
