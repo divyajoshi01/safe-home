@@ -15,11 +15,12 @@ const Sidebar = () => {
     >
       <div className="offcanvas-header">
         <h5 className="offcanvas-title text-primary">
-          <img src="image.png" alt="logo not found" className="me-2" />
+          <img src="image.png" alt="logo not found" className="me-2" style={{width:"50px", objectFit:"cover"}} />
           Safe Home</h5>
         <button
           type="button"
           className="btn-close btn-close-white"
+
           data-bs-dismiss="offcanvas"
         ></button>
       </div>
