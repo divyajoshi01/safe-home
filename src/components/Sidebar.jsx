@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Nav } from "react-bootstrap";
+import { Nav } from "react-bootstrap"; 
 
 const Sidebar = () => {
   const location = useLocation();
@@ -13,14 +13,7 @@ const Sidebar = () => {
       tabIndex="-1"
       id="mobileSidebar"
     >
-      <div className="offcanvas-header d-flex align-items-center">
-        <img
-          src="/image.png"
-          alt="Logo"
-          style={{ width: "45px", height: "45px", objectFit: "cover" }}
-          className="me-2 rounded"
-        />
-
+      <div className="offcanvas-header">
         <h5 className="offcanvas-title text-primary">Safe Home</h5>
         <button
           type="button"
@@ -38,12 +31,7 @@ const Sidebar = () => {
             { path: "contact", label: "Contact", icon: "bi-envelope" },
           ].map((item) => (
             <li key={item.path} className="nav-item">
-              <Nav.Link
-                as={Link}
-                to={item.path}
-                className="me-lg-3 text-white"
-                active={isActive(item.path)}
-              >
+              <Nav.Link as={Link} to={item.path} className="me-lg-3 text-white" active={isActive(item.path)}>
                 <i className={`bi ${item.icon} me-2`}></i>
                 {item.label}
               </Nav.Link>
