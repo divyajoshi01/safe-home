@@ -18,8 +18,9 @@ const Sidebar = () => {
           <img 
             src="/image.png" 
             alt="Logo" 
-            className="me-2"
-            style={{ width: "50px", height: "50px", objectFit: "cover" }}
+            width="40"
+         className="d-inline-block align-text-top"
+            
           />
           Safe Home</h5>
         <button
