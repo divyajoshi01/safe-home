@@ -10,16 +10,16 @@ const Sidebar = () => {
     location.pathname === path ? "active bg-primary" : "";
 
   // 🔥 Close sidebar when route changes
-  useEffect(() => {
-    const sidebarElement = document.getElementById("mobileSidebar");
-    if (sidebarElement) {
-      const bsOffcanvas =
-        bootstrap.Offcanvas.getInstance(sidebarElement) ||
-        new bootstrap.Offcanvas(sidebarElement);
+useEffect(() => {
+  const sidebarElement = document.getElementById("mobileSidebar");
+  if (!sidebarElement) return;
 
-      bsOffcanvas.hide();
-    }
-  }, [location.pathname]);
+  const bsOffcanvas = bootstrap.Offcanvas.getInstance(sidebarElement);
+  if (bsOffcanvas) {
+    bsOffcanvas.hide();
+  }
+}, [location.pathname]);
+
 
   return (
     <div
