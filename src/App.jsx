@@ -8,8 +8,8 @@ import Sidebar from './components/Sidebar.jsx';
 function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
-      <Sidebar />
       <AppNavbar />
+      <Sidebar />
 
       {/* Main content area */}
       <main className="flex-grow-1">

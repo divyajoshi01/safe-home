@@ -30,8 +30,9 @@ const Sidebar = () => {
                         { path: "contact", label: "Contact", icon: "bi-envelope" }
                     ].map((item) => (
                         <li key={item.path} className="nav-item">
+                            {console.log(item)}
                             <Link
-                                to={item.path}
+                                to="listings"
                                 className={`nav-link text-white d-flex align-items-center ${isActive(item.path)}`}
                                 data-bs-dismiss="offcanvas"
                             >
