@@ -4,6 +4,7 @@
   height: 80vh;
   background-image: url("https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1400&q=80");
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   display: flex;
   justify-content: center;
