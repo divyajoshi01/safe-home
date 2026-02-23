@@ -32,11 +32,11 @@ function AppNavbar() {
             </Nav.Link>
 
             <Nav.Link as={Link} to="/about" className="me-lg-3">
-              about
+              About
             </Nav.Link>
 
             <Nav.Link as={Link} to="/contact" className="me-lg-3">
-              contact
+              Contact
             </Nav.Link>
 
             <Button

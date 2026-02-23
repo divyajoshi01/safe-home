@@ -1,6 +1,7 @@
 .hero-section {
   background-image: url("https://images.unsplash.com/photo-1560448204-e02f11c3d0e2");
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   height: 90vh;
   position: relative;

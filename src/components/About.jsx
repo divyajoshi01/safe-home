@@ -12,6 +12,7 @@ function About() {
             'url("https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1400&q=80")',
           backgroundSize: "cover",
           backgroundPosition: "center",
+          backgroundAttachment: "fixed",
         }}
       >
         {/* Dark Overlay */}
@@ -34,7 +35,7 @@ function About() {
         {/* About Description */}
         <div className="row justify-content-center py-5">
           <div className="col-lg-8 text-center">
-            <p className="text-muted fs-5">
+            <p className="text-muted fs-5" style={{background:"crimson", color:"white"}}>
               Safe Home is a modern PG and rental platform designed to make
               room searching simple and stress-free. Users can search rooms
               city-wise, filter by price range, and explore different room
