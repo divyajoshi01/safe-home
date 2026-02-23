@@ -5,8 +5,8 @@ const roomsData = [
     city: "Bhilai",
     price: 1000,
     roomType: "Single",
-    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=60",
     description: "Fully furnished single room with attached bathroom."
   },
   {
@@ -15,8 +15,8 @@ const roomsData = [
     city: "Bhilai",
     price: 2500,
     roomType: "PG",
-    image: "https://images.unsplash.com/photo-1555854817-5b2247a8175f?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1555854817-5b2247a8175f?auto=format&fit=crop&w=500&q=60",  
+    image: "https://images.unsplash.com/photo-1555854817-5b2247a8175f?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1555854817-5b2247a8175f?auto=format&fit=crop&w=800&q=60",  
     description: "Affordable PG with food included."
   },
   {
@@ -25,8 +25,8 @@ const roomsData = [
     city: "Durg",
     price: 3000,
     roomType: "1RK",
-    image: "https://images.unsplash.com/photo-1536376074432-cd24090212cc?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1536376074432-cd24090212cc?auto=format&fit=crop&w=500&q=60",  
+    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=60",  
     description: "Spacious 1RK near railway station."
   },
   {
@@ -35,8 +35,8 @@ const roomsData = [
     city: "Durg",
     price: 5000,
     roomType: "Double",
-    image: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=60",
     description: "Double sharing room in good locality."
   },
   {
@@ -45,8 +45,8 @@ const roomsData = [
     city: "Durg",
     price: 1000,
     roomType: "PG",
-    image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=60",
     description: "AC room with WiFi and food."
   },
   {
@@ -55,8 +55,8 @@ const roomsData = [
     city: "Durg",
     price: 3500,
     roomType: "Single",
-    image: "https://images.unsplash.com/photo-1505691938895-1758d7eaa511?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1505691938895-1758d7eaa511?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1505691938895-1758d7eaa511?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1505691938895-1758d7eaa511?auto=format&fit=crop&w=800&q=60",
     description: "Affordable room for students."
   },
   {
@@ -65,8 +65,8 @@ const roomsData = [
     city: "Durg",
     price: 7000,
     roomType: "Double",
-    image: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=60",
     description: "Comfortable 2 sharing PG with meals."
   },
   {
@@ -75,8 +75,8 @@ const roomsData = [
     city: "Durg",
     price: 12000,
     roomType: "1BHK",
-    image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
     description: "Semi furnished 1BHK in prime area."
   },
   {
@@ -85,8 +85,8 @@ const roomsData = [
     city: "Bhilai",
     price: 5500,
     roomType: "PG",
-    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1630694093867-4b947d812bf0?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1630694093867-4b947d812bf0?auto=format&fit=crop&w=800&q=60",
     description: "Safe and secure PG for girls."
   },
   {
@@ -95,8 +95,8 @@ const roomsData = [
     city: "Powerhouse",
     price: 12000,
     roomType: "Studio",
-    image: "https://images.unsplash.com/photo-1560448204-61dc36dc98c8?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1560448204-61dc36dc98c8?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1560448204-61dc36dc98c8?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1560448204-61dc36dc98c8?auto=format&fit=crop&w=800&q=60",
     description: "Modern studio apartment with balcony."
   },
   {
@@ -105,8 +105,8 @@ const roomsData = [
     city: "Durg",
     price: 8000,
     roomType: "Single",
-    image: "https://images.unsplash.com/photo-1534349762230-e0cadf78f5db?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1534349762230-e0cadf78f5db?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1534349762230-e0cadf78f5db?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1534349762230-e0cadf78f5db?auto=format&fit=crop&w=800&q=60",
     description: "Single room available in shared flat."
   },
   {
@@ -115,8 +115,8 @@ const roomsData = [
     city: "Bhilai",
     price: 4000,
     roomType: "PG",
-    image: "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
     description: "Affordable PG with basic facilities."
   },
   {
@@ -125,8 +125,8 @@ const roomsData = [
     city: "Durg",
     price: 11000,
     roomType: "1BHK",
-    image: "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
     description: "Fully furnished luxury 1BHK."
   },
   {
@@ -135,8 +135,8 @@ const roomsData = [
     city: "Durg",
     price: 4000,
     roomType: "Double",
-    image: "https://images.unsplash.com/photo-1540518614846-7eba4c3efb46?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1540518614846-7eba4c3efb46?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1540518614846-7eba4c3efb46?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1540518614846-7eba4c3efb46?auto=format&fit=crop&w=800&q=60",
     description: "Perfect for college students."
   },
   {
@@ -145,8 +145,8 @@ const roomsData = [
     city: "Durg",
     price: 8500,
     roomType: "Studio",
-    image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=60",
     description: "Compact studio apartment."
   },
   {
@@ -155,8 +155,8 @@ const roomsData = [
     city: "Durg",
     price: 10000,
     roomType: "PG",
-    image: "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=60",
     description: "Premium PG with AC and food."
   },
   {
@@ -165,8 +165,8 @@ const roomsData = [
     city: "Durg",
     price: 9000,
     roomType: "1RK",
-    image: "https://images.unsplash.com/photo-1594488651393-c351f83b77c5?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1594488651393-c351f83b77c5?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.jquery.com/photo-1594488651393-c351f83b77c5?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1594488651393-c351f83b77c5?auto=format&fit=crop&w=800&q=60",
     description: "1RK suitable for working professionals."
   },
   {
@@ -175,8 +175,8 @@ const roomsData = [
     city: "Bhilai",
     price: 3500,
     roomType: "Double",
-    image: "https://images.unsplash.com/photo-1555854817-5b2247a8175f?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1555854817-5b2247a8175f?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=60",
     description: "Budget shared accommodation."
   },
   {
@@ -185,8 +185,8 @@ const roomsData = [
     city: "Durg",
     price: 12000,
     roomType: "Studio",
-    image: "https://images.unsplash.com/photo-1536376074432-cd24090212cc?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1536376074432-cd24090212cc?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1536376074432-cd24090212cc?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1536376074432-cd24090212cc?auto=format&fit=crop&w=800&q=60",
     description: "High-end studio with modern amenities."
   },
   {
@@ -195,8 +195,8 @@ const roomsData = [
     city: "Durg",
     price: 4500,
     roomType: "PG",
-    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=500&q=60",
-    image2: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
+    image2: "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=60",
     description: "Affordable PG near university."
   }
 ];
