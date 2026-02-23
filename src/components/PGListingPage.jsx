@@ -31,7 +31,7 @@ console.log(filterData.length);
 
   return (
     <>
-      <div className="container my-5">
+      <div className="container my-4">
        <h1 className="text-center fw-bold mb-4">Find Your Perfect Stay</h1>
         <hr />
 
