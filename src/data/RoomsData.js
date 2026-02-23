@@ -15,7 +15,7 @@ const roomsData = [
     city: "Bhilai",
     price: 2500,
     roomType: "PG",
-    image: "https://images.unsplash.com/photo-1555854817-5b2247a8175f?auto=format&fit=crop&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=60",
     image2: "https://images.unsplash.com/photo-1555854817-5b2247a8175f?auto=format&fit=crop&w=800&q=60",  
     description: "Affordable PG with food included."
   },
@@ -55,7 +55,7 @@ const roomsData = [
     city: "Durg",
     price: 3500,
     roomType: "Single",
-    image: "https://images.unsplash.com/photo-1505691938895-1758d7eaa511?auto=format&fit=crop&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
     image2: "https://images.unsplash.com/photo-1505691938895-1758d7eaa511?auto=format&fit=crop&w=800&q=60",
     description: "Affordable room for students."
   },
@@ -85,7 +85,7 @@ const roomsData = [
     city: "Bhilai",
     price: 5500,
     roomType: "PG",
-    image: "https://images.unsplash.com/photo-1630694093867-4b947d812bf0?auto=format&fit=crop&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=60",
     image2: "https://images.unsplash.com/photo-1630694093867-4b947d812bf0?auto=format&fit=crop&w=800&q=60",
     description: "Safe and secure PG for girls."
   },
@@ -135,7 +135,7 @@ const roomsData = [
     city: "Durg",
     price: 4000,
     roomType: "Double",
-    image: "https://images.unsplash.com/photo-1540518614846-7eba4c3efb46?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=60",
     image2: "https://images.unsplash.com/photo-1540518614846-7eba4c3efb46?auto=format&fit=crop&w=800&q=60",
     description: "Perfect for college students."
   },
@@ -185,7 +185,7 @@ const roomsData = [
     city: "Durg",
     price: 12000,
     roomType: "Studio",
-    image: "https://images.unsplash.com/photo-1536376074432-cd24090212cc?auto=format&fit=crop&w=800&q=60",
+     image: "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=60",
     image2: "https://images.unsplash.com/photo-1536376074432-cd24090212cc?auto=format&fit=crop&w=800&q=60",
     description: "High-end studio with modern amenities."
   },
