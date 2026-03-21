@@ -51,7 +51,7 @@ function AppNavbar() {
             <Button
               as={Link}
               to="/signup"
-              variant="warning"
+              variant="primary"
             >
               Sign Up
             </Button>
